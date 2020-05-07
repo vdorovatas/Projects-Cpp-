@@ -33,7 +33,8 @@ public:
   void insert(const string &s) {
     node *p;
     p=root;
-    node *n=new node(s,NULL,NULL,NULL,0);
+    node *n=new node(s,NULL,NULL,NULL,1);
+     if(root==NULL) { root=n; } 
     while(1==1) {
       if(s == p->word) { ++p->freq; delete n; break; }
       if(s < p->word) {
