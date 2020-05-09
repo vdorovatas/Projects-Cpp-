@@ -180,6 +180,7 @@ public:
     //cout << l.depth("");
     l.replace ("wolf", "dummy");
     cout << l << endl;
+    cout << l.depth("dummy") << endl;
     cout << l.lookup("wolf");
 }
 
