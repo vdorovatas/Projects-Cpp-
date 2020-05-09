@@ -179,7 +179,7 @@ public:
     cout << l << endl;
     //cout << l.depth("");
     l.replace ("wolf", "dummy");
-    cout << l;
+    cout << l << endl;
     cout << l.lookup("wolf");
 }
 
